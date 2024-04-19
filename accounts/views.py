@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from accounts import services as account_services
-from backend.utils.custom_responses import error
+from utils.custom_responses import error
 
 
 @api_view(["POST"])
